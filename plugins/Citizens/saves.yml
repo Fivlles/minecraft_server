@@ -38,7 +38,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyODkyNTU3MjYwNiwKICAicHJvZmlsZUlkIiA6ICI1ODhjYjk3NTMxMTI0ZDQxYmRkODc0YjE5MzMwY2NlYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJoZWxsbzEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YmM4MGYwMDJiMTAzNzFlMmZhMjNkZTZmMjMwZGQ1ZTJmM2FmZmMyZTE1Nzg2ZjY1YmM5YmU0YzZlYjcxYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
       owner:
         uuid: 1087e398-e985-497b-8add-341ccf87c51f
-    traitnames: spawned,type,scoreboardtrait,commandtrait,inventory,owner,skintrait,location
+    traitnames: type,scoreboardtrait,skintrait,commandtrait,owner,location,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -76,13 +76,13 @@ npc:
           '1': 360.0
       spawned: true
       location:
-        bodyYaw: 54.714615
+        bodyYaw: 57.664673
         world: test
         x: -10.5835
         y: 73.0
         z: -18.6332
-        yaw: 54.7146
-        pitch: -9.7919
+        yaw: 57.6647
+        pitch: -10.6376
       type: BOGGED
       commandtrait:
         commands:
@@ -98,7 +98,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: spawned,lookclose,scoreboardtrait,commandtrait,owner,skintrait,gravity,type,rotationtrait,inventory,hologramtrait,waypoints,equipment,location
+    traitnames: equipment,type,waypoints,commandtrait,location,scoreboardtrait,skintrait,rotationtrait,lookclose,owner,hologramtrait,gravity,spawned,inventory
     navigator:
       speedmodifier: 0.25
       avoidwater: false
@@ -119,12 +119,12 @@ npc:
         uuid: 1087e398-e985-497b-8add-341ccf87c51f
       spawned: true
       location:
-        bodyYaw: -40.006145
+        bodyYaw: -35.513348
         world: test
         x: -46.3
         y: 73.0
         z: -34.3
-        yaw: -40.0061
+        yaw: -35.5133
         pitch: 0.0
       type: PLAYER
       equipment:
@@ -158,7 +158,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,equipment,location
+    traitnames: equipment,type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -180,13 +180,13 @@ npc:
           '1': 360.0
       spawned: true
       location:
-        bodyYaw: -132.25835
+        bodyYaw: -135.22409
         world: test
         x: -36.2756
         y: 73.0
         z: -22.4485
-        yaw: -132.2583
-        pitch: -3.7542
+        yaw: -135.2241
+        pitch: -5.4667
       type: PLAYER
       commandtrait:
         commands:
@@ -202,7 +202,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,location
+    traitnames: type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -215,13 +215,13 @@ npc:
         uuid: 1087e398-e985-497b-8add-341ccf87c51f
       spawned: true
       location:
-        bodyYaw: -34.963924
+        bodyYaw: -117.58375
         world: test
         x: -19.477
         y: 73.0
         z: -36.3614
-        yaw: -34.9639
-        pitch: 1.1589
+        yaw: -117.5837
+        pitch: -0.1117
       type: PLAYER
       commandtrait:
         commands:
@@ -246,7 +246,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,hologramtrait,skintrait,location
+    traitnames: type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,hologramtrait,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -283,13 +283,13 @@ npc:
           '1': 360.0
       spawned: true
       location:
-        bodyYaw: -141.30714
+        bodyYaw: -127.65789
         world: test
         x: -46.4864
         y: 73.0
         z: -18.2185
-        yaw: -141.3071
-        pitch: 0.0
+        yaw: -127.6579
+        pitch: -3.6572
       type: PLAYER
       commandtrait:
         commands:
@@ -305,7 +305,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,equipment,location
+    traitnames: equipment,type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -328,13 +328,13 @@ npc:
       spawned: true
       hologramtrait: {}
       location:
-        bodyYaw: 87.026474
+        bodyYaw: -17.154808
         world: test
         x: 0.5046
         y: 73.0
         z: -37.3754
-        yaw: 87.0265
-        pitch: -0.2865
+        yaw: -17.1548
+        pitch: 4.4819
       type: PLAYER
       commandtrait:
         commands:
@@ -350,7 +350,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,hologramtrait,skintrait,location
+    traitnames: type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,hologramtrait,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -360,13 +360,13 @@ npc:
     uuid: 486631a8-74c8-4a34-9d49-35a2992498c0
     traits:
       location:
-        bodyYaw: -90.5022
+        bodyYaw: -83.96381
         world: test
         x: -47.7544
         y: 73.0
         z: -26.9075
-        yaw: -90.5022
-        pitch: -5.7972
+        yaw: -83.9638
+        pitch: -5.5662
       spawned: true
       type: PLAYER
       lookclose:
@@ -394,7 +394,7 @@ npc:
             experienceCost: -1
       owner:
         uuid: 1087e398-e985-497b-8add-341ccf87c51f
-    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,location
+    traitnames: type,scoreboardtrait,skintrait,rotationtrait,lookclose,commandtrait,owner,location,spawned,inventory
     navigator:
       speedmodifier: 1.0
       avoidwater: false

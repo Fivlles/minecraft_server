@@ -73,7 +73,7 @@ open_requirement:
       type: has permission
       permission: deluxemenus.admin
       deny_commands:
-        - '[message] &cYou don''t have permission to do that!'
+        - '[message] &dYou don''t have permission to do that!'
 
 # Item section. This is where you can start add items into menu, and add functions into each items that you did.
 # For depth explanation on the functions, you can check on the note given from config.yml
@@ -85,79 +85,64 @@ items:
     material: WRITABLE_BOOK
     data: 1
     slot: 0
-    display_name: "&d&l▸ &d&nBasic Rules&r &d&l◂"
+    display_name: "&d&l▸ &d&nʙᴀѕɪᴄ ʀᴜʟᴇѕ&r &d&l◂"
     lore:
       - ""
-      - "&d1. &fHacks are not allowed."
-      - "&d2. &fDo not be rude."
-      - "&d3. &fDo not Spam."
+      - "&d1. &fʜᴀᴄᴋѕ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ."
+      - "&d2. &fᴅᴏ ɴᴏᴛ ʙᴇ ʀᴜᴅᴇ."
+      - "&d3. &fᴅᴏ ɴᴏᴛ ѕᴘᴀᴍ."
   'kitsmenu':
     material: CHEST
     data: 1
     slot: 1
-    display_name: "&c&l▸ &c&nΔιαθέσιμα Kits&r &c&l◂"
+    display_name: "&d&l▸ &d&nᴀᴠᴀɪʟᴀʙʟᴇ ᴋɪᴛѕ&r &d&l◂"
     lore:
       - ""
-      - "&fΤο &ccommand&f για να δείς τα &cδιαθέσιμα Kits&f είναι το &c'/kits'&f."
+      - "&fɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ &dᴀᴠᴀɪʟᴀʙʟᴇ ᴋɪᴛѕ &fᴛʏᴘᴇ &d&l⁄&r&dᴋɪᴛѕ&f."
       - ""
-      - "&fΥπάρχουν &c2 &fβασικές &cκατηγορίες &fKits &c&l➤"
-      - ""
-      - "&f1. &cFree Kits &fόπου όλοι έχουν πρόσβαση."
-      - "&f2. &cRank Kits &fόπου έχουν πρόσβαση μόνο τα Ranks."
+      - "&fᴀʟʟ ᴋɪᴛѕ ᴀʀᴇ &dᴏʙᴛᴀɪɴᴀʙʟᴇ ᴏɴʟʏ ᴏɴᴄᴇ&f."
   'auction':
     material: ANVIL
     data: 1
     slot: 2
-    display_name: "&c&l▸ &c&nΟίκος Δημοπρασιών&r &c&l◂"
+    display_name: "&d&l▸ &d&nᴀᴜᴄᴛɪᴏɴ ʜᴏᴜѕᴇ&r &d&l◂"
     lore:
       - ""
-      - "&fΤο &ccommand&f για να δείς τα &cδιαθέσιμα Auctions&f είναι το &c'/ah'&f."
+      - "&fᴡɪᴛʜ &d&l⁄&r&dᴀʜ &fʏᴏᴜ ᴄᴀɴ ѕᴇᴇ ᴀʟʟ ᴛʜᴇ &dᴀᴜᴄᴛɪᴏɴѕ&f."
       - ""
-      - "&fΕαν θέλεις να πουλήσεις κάποιο αντικείμενο, τότε"
-      - "&fπρέπει να ακολουθήσεις τα παρακάτω βήματα &c&l➤"
-      - ""
-      - "&f1. &cΚράτα &fστο &c'χέρι'&f το αντικείμενο που θέλεις να &cπουλήσεις&f."
-      - "&f2. Γράψε &c'/ah sell {Τιμή προς πώληση}&f.'"
-      - ""
-      - "&fΤο αντικείμενο είναι διαθέσιμο στο &c'/ah' &fπρος πώληση."
+      - "&fɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ &dѕᴇʟʟ ᴀɴ ɪᴛᴇᴍ&f, ᴛʏᴘᴇ  &d&l⁄&r&dᴀʜ ѕᴇʟʟ [ᴘʀɪᴄᴇ]&f."
   'shop':
     material: EMERALD
     data: 1
     slot: 3
-    display_name: "&c&l▸ &c&nΑγοροπωλησία&r &c&l◂"
+    display_name: "&d&l▸ &d&nѕʜᴏᴘ&r &d&l◂"
     lore:
       - ""
-      - "&fΟι Αγορές είναι &cδιαθέσιμες &fμέσω &cNPCs &fστο Spawn του Server&f."
+      - "&fᴛʜᴇ ѕʜᴏᴘ ɪѕ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴘᴄ᾽ѕ ɪɴ ᴛʜᴇ ѕᴘᴀᴡɴ&f."
       - ""
-      - "&fΥπάρχουν &c3 &fδιαφορετικά &cNPCs&f που ασχολούνται με την &cαγοροπωλησία &c&l➤"
-      - ""
-      - "&f1. &cΜεταλλωρύχος &f(Ores)"
-      - "&f2. &cΑγρότης &f(Farm)"
-      - "&f3. &cΚυνηγός &f(Mobs)"
+      - "&fʏᴏᴜ ᴄᴀɴ &dᴀᴄᴄᴇѕѕ &fᴛʜᴇ &dѕʜᴏᴘ &fꜰʀᴏᴍ &dᴀɴʏᴡʜᴇʀᴇ &fɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀ &dʀᴀɴᴋ&f."
   'grief':
     material: GOLDEN_SHOVEL
     data: 0
     slot: 4
-    display_name: "&c&l▸ &c&nΔιεκδήκηση Περιοχής&r &c&l◂"
+    display_name: "&d&l▸ &d&nʟᴀɴᴅ ᴄʟᴀɪᴍɪɴɢ&r &d&l◂"
     lore:
       - ""
-      - "&fΓια την διεκδήση περιοχής απαιτούνται τα εργαλεία &c&l➤"
+      - "&fɪɴ ᴏʀᴅᴇʀ ᴛᴏ &dᴄʟᴀɪᴍ ʟᴀɴᴅ &fʏᴏᴜ ᴡɪʟʟ ɴᴇᴇᴅ ᴛʜᴇѕᴇ &dᴛᴏᴏʟѕ &f:"
+      - "&dɢᴏʟᴅᴇɴ ѕʜᴏᴠᴇʟ &d&m &r &fɪᴛ᾽ѕ ᴜѕᴇᴅ ᴛᴏ ᴄʟᴀɪᴍ ʟᴀɴᴅ ʙʏ &dʀɪɢʜᴛ-ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴜɴᴄʟᴀɪᴍᴇᴅ ʙʟᴏᴄᴋѕ."
+      - "&fᴛʜᴇ ᴀʀᴇᴀ &dʙᴇᴛᴡᴇᴇɴ &fʏᴏᴜʀ &dᴄʜᴏѕᴇɴ ʙʟᴏᴄᴋѕ &fɪѕ &dᴅᴇꜰɪɴᴇᴅ &fᴀѕ ʏᴏᴜʀ &dᴄʟᴀɪᴍ&f."
       - ""
-      - "&f1. &cGolden Shovel &c&l➤ &fTo οποίο χρησιμοποιείται για την οριοθέτηση της περιοχής."
-      - "&fΗ οριοθέτηση γίνεται σε σχήμα παραλληλλογράμμου, αυτό που πρέπει να κάνεις είναι να"
-      - "&fορίσεις τις 2 άκρες του σχήματος, και τα ένδιαμεσα block αποτελούν την περιοχή σου."
-      - ""
-      - "&f2. &cStick &c&l➤ &fΤο οποίο παρέχει πληροφορίες για την κατάσταση μιας περιόχης."
-      - "&fΑναλυτικότερα, εαν είναι διαθέσιμη ή οχι για την διεκδήση της."
+      - "&dѕᴛɪᴄᴋ &d&m &r &fʙʏ &dʀɪɢʜᴛ-ᴄʟɪᴄᴋɪɴɢ&f, ɪᴛ ᴘʀᴏᴠɪᴅᴇѕ &dɪɴꜰᴏʀᴍᴀᴛɪᴏɴ"
+      - "&fᴀʙᴏᴜᴛ ᴛʜᴇ &dᴄʟᴀɪᴍ ѕᴛᴀᴛᴜѕ &fᴏꜰ ᴀɴʏ ɢɪᴠᴇɴ &dᴀʀᴇᴀ&f."
   'voicechat':
     material: goat_horn
     data: 1
     slot: 5
-    display_name: "&c&l▸ &c&nVoice Chat&r &c&l◂"
+    display_name: "&d&l▸ &d&nᴠᴏɪᴄᴇ ᴄʜᴀᴛ&r &d&l◂"
     lore:
       - ""
-      - "&fΟ server έχει διαθέσημο &cVoice Chat&f, εαν θέλεις να το εγκαταστήσεις"
-      - "&fμπορείς να δείς κάποιο video στο youtbe με τίτλο &cFabric Installer&f."
+      - "&fᴛʜᴇ ѕᴇʀᴠᴇʀ &dꜰᴇᴀᴛᴜʀᴇѕ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ&f, ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴜѕᴇ ɪᴛ"
+      - "&fʏᴏᴜ ᴍᴜѕᴛ &dᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ꜰᴀʙʀɪᴄ ɪɴѕᴛᴀʟʟᴇʀ &fᴏɴ ʏᴏᴜʀ ᴘᴄ&f."
 
 # ==============================================================
 #

@@ -1,6 +1,9 @@
 # Default language file
 lang: en_US
 
+# Hides the purchase thank you message in the console.
+hide thank you: false
+
 economy:
   currency:
 
@@ -12,6 +15,9 @@ economy:
 
     # When using default/vault currency, what symbol should be used.
     vault symbol: €
+
+    # If true, the vault symbol will override the symbol provided by the country/language combination
+    vault symbol overrides: false
 
     # A list of owning plugins & the currency to be blacklisted. Ex. UltraEconomy:Test
     black listed:
@@ -609,7 +615,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     non bid item purchase: LEFT
 
     # Valid Click Types
@@ -619,7 +625,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     non bid item qty purchase: SHIFT_LEFT
 
     # Valid Click Types
@@ -629,7 +635,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     bid item place bid: LEFT
 
     # Valid Click Types
@@ -639,7 +645,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     bid item buy now: RIGHT
 
     # Valid Click Types
@@ -649,7 +655,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     inspect container: SHIFT_RIGHT
 
     # Valid Click Types
@@ -659,7 +665,7 @@ auction setting:
     # SHIFT_RIGHT
     # MIDDLE
     # 
-    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
     remove item: DROP
     filter:
 
@@ -671,7 +677,7 @@ auction setting:
       # MIDDLE
       # DROP
       # 
-      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
       sort by price or recent: SHIFT_RIGHT
 
       # Valid Click Types
@@ -682,7 +688,7 @@ auction setting:
       # MIDDLE
       # DROP
       # 
-      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
       sort sale type: RIGHT
 
       # Valid Click Types
@@ -693,7 +699,7 @@ auction setting:
       # MIDDLE
       # DROP
       # 
-      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
       transaction buy type: SHIFT_LEFT
 
       # Valid Click Types
@@ -704,7 +710,7 @@ auction setting:
       # MIDDLE
       # DROP
       # 
-      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
       reset: DROP
 
       # Valid Click Types
@@ -715,7 +721,7 @@ auction setting:
       # MIDDLE
       # DROP
       # 
-      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      # &dIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
       change category: LEFT
 
 database:
@@ -742,7 +748,7 @@ database:
   password: Password1.
 
   # Leave this alone if you don't know what you're doing. Set to 'None' to use no custom connection params
-  custom parameters: ?useUnicode=yes&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useSSL=true
+  custom parameters: ?useUnicode=yes&dharacterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useSSL=true
 
 discord:
 
@@ -942,7 +948,7 @@ gui:
       # Settings for the previous page button
       item: OAK_DOOR
 
-      name: '&c&l<< &c&nPrevious Page'
+      name: '&d&l<< &d&nPrevious Page'
 
       lore:
       - '&7Click the button to go'
@@ -955,7 +961,7 @@ gui:
       # Settings for the previous page button
       item: ARROW
 
-      name: '&c&l<< &c&nPrevious Page'
+      name: '&d&l<< &d&nPrevious Page'
 
       lore:
       - '&7Click the button to go'
@@ -965,7 +971,7 @@ gui:
       # Settings for the close button
       item: BARRIER
 
-      name: '&c&l* &c&nClose&r &c&l*'
+      name: '&d&l* &d&nClose&r &d&l*'
 
       lore:
       - '&7Click to close this menu.'
@@ -977,7 +983,7 @@ gui:
       # Settings for the next button
       item: ARROW
 
-      name: '&c&nNext Page&r &c&l>>'
+      name: '&d&nNext Page&r &d&l>>'
 
       lore:
       - '&7Click the button to go'
@@ -992,10 +998,10 @@ gui:
       # Settings for the refresh page
       item: CHEST
 
-      name: '&c&l*&r &c&nRefresh Page&r &c&l*'
+      name: '&d&l*&r &d&nʀᴇꜰʀᴇѕʜ ᴘᴀɢᴇ&r &d&l*'
 
       lore:
-      - '&7Click to refresh the page'
+      - '&7ᴄʟɪᴄᴋ ᴛᴏ ʀᴇꜰʀᴇѕʜ ᴛʜᴇ ᴘᴀɢᴇ.'
     currency:
 
       item: GOLD_INGOT
@@ -1040,13 +1046,13 @@ gui:
         - '&7Click to search for materials'
       reset:
 
-        name: '&c&lClear Search'
+        name: '&d&lClear Search'
 
         lore:
         - '&7Click to clear search'
   auction house:
 
-    title: '           &8&nAuction House'
+    title: '           &8&nᴀᴜᴄᴛɪᴏɴ ʜᴏᴜѕᴇ'
 
     rows: 6
 
@@ -1106,22 +1112,22 @@ gui:
 
         item: BOOK
 
-        name: '&c&l* &r&c&nGuide &c&l*'
+        name: '&d&l* &r&d&nɢᴜɪᴅᴇ &d&l*'
 
         lore:
-        - '&7This is the &cauction house&7, here you can'
-        - '&clist items for sale &7and &cpurchase items'
-        - '&7that others have &clisted for sale&7.'
+        - '&7ᴛʜɪѕ ɪѕ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ ʜᴏᴜѕᴇ, ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ'
+        - '&7ʟɪѕᴛ ɪᴛᴇᴍѕ ꜰᴏʀ ѕᴀʟᴇ ᴀɴᴅ ᴘᴜʀᴄʜᴀѕᴇ ɪᴛᴇᴍѕ'
+        - '&7ᴛʜᴀᴛ ᴏᴛʜᴇʀѕ ʜᴀᴠᴇ ʟɪѕᴛᴇᴅ ꜰᴏʀ ѕᴀʟᴇ.'
         - ''
-        - '&7The &cauction &7is also a great way to &cmake'
-        - '&cmoney &7by &cselling farmable items &7other'
-        - '&cplayers &7may be interested in &cbuying&7.'
+        - '&7ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ ɪѕ ᴀʟѕᴏ ᴀ ɢʀᴇᴀᴛ ᴡᴀʏ ᴛᴏ ᴍᴀᴋᴇ'
+        - '&7ᴍᴏɴᴇʏ ʙʏ ѕᴇʟʟɪɴɢ ꜰᴀʀᴍᴀʙʟᴇ ɪᴛᴇᴍѕ ᴏᴛʜᴇʀ'
+        - '&7ᴘʟᴀʏᴇʀѕ ᴍᴀʏ ʙᴇ ɪɴᴛᴇʀᴇѕᴛᴇᴅ ɪɴ ʙᴜʏɪɴɢ.'
         - ''
-        - '&7Any &cunsold items&7 are sent to your &ccollection bin&7.'
+        - '&7ᴀɴʏ ᴜɴѕᴏʟᴅ ɪᴛᴇᴍѕ ᴀʀᴇ ѕᴇɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ʙɪɴ.'
         - ''
-        - '&cEach item &7is listed as a &cauction&7, so'
-        - '&7players &ccan out bid&7 each other, or &csimply'
-        - '&cpurchase it&7 right away with a set price.'
+        - '&7ᴇᴀᴄʜ ɪᴛᴇᴍ ɪѕ ʟɪѕᴛᴇᴅ ᴀѕ ᴀ ᴀᴜᴄᴛɪᴏɴ, ѕᴏ'
+        - '&7ᴘʟᴀʏᴇʀѕ ᴄᴀɴ ᴏᴜᴛ ʙɪᴅ ᴇᴀᴄʜ ᴏᴛʜᴇʀ, ᴏʀ ѕɪᴍᴘʟʏ'
+        - '&7ᴘᴜʀᴄʜᴀѕᴇ ɪᴛ ʀɪɢʜᴛ ᴀᴡᴀʏ ᴡɪᴛʜ ᴀ ѕᴇᴛ ᴘʀɪᴄᴇ.'
       transactions:
 
         enabled: true
@@ -1131,14 +1137,14 @@ gui:
 
         item: PAPER
 
-        name: '&c&l* &c&nTransactions&r &c&l*'
+        name: '&d&l* &d&nᴛʀᴀɴѕᴀᴄᴛɪᴏɴѕ&r &d&l*'
 
         lore:
-        - '&7Click to view transaction history'
+        - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ ᴛʀᴀɴѕᴀᴄᴛɪᴏɴ ʜɪѕᴛᴏʀʏ.'
         - ''
-        - '&c&nTotal Items Bought&r &c: &f%total_items_bought%'
+        - '&d&nᴛᴏᴛᴀʟ ɪᴛᴇᴍѕ ʙᴏᴜɢʜᴛ&r &d&m &r &f%total_items_bought%'
         - ''
-        - '&c&nTotal Items Sold&r &c: &f%total_items_sold%'
+        - '&d&nᴛᴏᴛᴀʟ ɪᴛᴇᴍѕ ѕᴏʟᴅ&r &d&m &r &f%total_items_sold%'
       how to sell:
 
         enabled: true
@@ -1148,12 +1154,14 @@ gui:
 
         item: GOLD_INGOT
 
-        name: '&c&l* &c&nHow to Sell&r &c&l*'
+        name: '&d&l* &d&nʜᴏᴡ ᴛᴏ ѕᴇʟʟ&r &d&l*'
 
         lore:
-        - '&7To list an item on the auction house, just hold'
-        - '&7the item in your hand and type the following command.'
-        - '&c/ah sell <buyNowPrice> [startPrice] [bidIncrement]'
+        - ' '
+        - '&7ᴛᴏ ʟɪѕᴛ ᴀɴ ɪᴛᴇᴍ ᴏɴ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ ʜᴏᴜѕᴇ, ᴊᴜѕᴛ ʜᴏʟᴅ'
+        - '&7ᴛʜᴇ ɪᴛᴇᴍ ɪɴ ʏᴏᴜʀ ʜᴀɴᴅ ᴀɴᴅ ᴛʏᴘᴇ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴄᴏᴍᴍᴀɴᴅ.'
+        - '&d&l⁄&r&dᴀʜ ѕᴇʟʟ <ʙᴜʏɴᴏᴡᴘʀɪᴄᴇ> [ѕᴛᴀʀᴛᴘʀɪᴄᴇ] [ʙɪᴅɪɴᴄʀᴇᴍᴇɴᴛ]'
+        - 'gi'
       list new item:
 
         enabled: true
@@ -1176,28 +1184,28 @@ gui:
 
         item: DIAMOND
 
-        name: '&c&l* &c&nYour Auctions&r &c&l*'
+        name: '&d&l* &d&nʏᴏᴜʀ ᴀᴜᴄᴛɪᴏɴѕ&r &d&l*'
 
         lore:
-        - '&7Click here to view all of the items you'
-        - '&7are currently selling on the auction.'
+        - '&7ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴏꜰ ᴛʜᴇ ɪᴛᴇᴍѕ ʏᴏᴜ'
+        - '&7ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ѕᴇʟʟɪɴɢ ᴏɴ ᴛʜᴇ ᴀᴜᴄᴛɪᴏɴ.'
         - ''
-        - '&c&nItem(s)&r &c&l➤ &f%active_player_auctions%'
+        - ' &d&nɪᴛᴇᴍ(ѕ)&r &d&m &r &f%active_player_auctions%'
         - ''
-        - '&c&nBalance&r &c&l➤ &f%player_balance%€'
+        - ' &d&nʙᴀʟᴀɴᴄᴇ&r &d&m &r &f%player_balance%€'
       collection bin:
 
         enabled: true
 
         item: ENDER_CHEST
 
-        name: '&c&l* &c&nCollection Bin&r &c&l*'
+        name: '&d&l* &d&nᴄᴏʟʟᴇᴄᴛɪᴏɴ ʙɪɴ&r &d&l*'
 
         lore:
-        - '&7Click here to view and collect all of the'
-        - '&7items you have cancelled or have expired.'
+        - '&7ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠɪᴇᴡ ᴀɴᴅ ᴄᴏʟʟᴇᴄᴛ ᴀʟʟ ᴏꜰ ᴛʜᴇ'
+        - '&7ɪᴛᴇᴍѕ ʏᴏᴜ ʜᴀᴠᴇ ᴄᴀɴᴄᴇʟʟᴇᴅ ᴏʀ ʜᴀᴠᴇ ᴇхᴘɪʀᴇᴅ.'
         - ''
-        - '&c&nItem(s)&r &c&l➤ &f%expired_player_auctions%'
+        - ' &d&nɪᴛᴇᴍ(ѕ)&r &d&m &r &f%expired_player_auctions%'
       collection bind:
 
         # Valid Slots: 45 - 53
@@ -1211,17 +1219,17 @@ gui:
 
         item: NETHER_STAR
 
-        name: '&c&l* &c&nFilter Options&r &c&l*'
+        name: '&d&l* &d&nꜰɪʟᴛᴇʀ ᴏᴘᴛɪᴏɴѕ&r &d&l*'
 
         lore:
-        - '&cItem Category&r &c: &f%filter_category%'
-        - '&cAuction Type&r &c: &f%filter_auction_type%'
-        - '&cSort Order&r &c: &f%filter_sort_order%'
+        - '&dɪᴛᴇᴍ ᴄᴀᴛᴇɢᴏʀʏ&r &d&m &r &f%filter_category%'
+        - '&dᴀᴜᴄᴛɪᴏɴ ᴛʏᴘᴇ&r &d&m &r &f%filter_auction_type%'
+        - '&dѕᴏʀᴛ ᴏʀᴅᴇʀ&r &d&m &r &f%filter_sort_order%'
         - ''
-        - '&cLeft-Click&r &fto change item category'
-        - '&cRight-Click&r &fto change change auction type'
-        - '&cShift Right-Click&r &fto change sort order'
-        - '&cPress Drop(button)&f to reset filters'
+        - '&dʟᴇꜰᴛ-ᴄʟɪᴄᴋ&f ᴛᴏ ᴄʜᴀɴɢᴇ ɪᴛᴇᴍ ᴄᴀᴛᴇɢᴏʀʏ.'
+        - '&dʀɪɢʜᴛ-ᴄʟɪᴄᴋ&f ᴛᴏ ᴄʜᴀɴɢᴇ ᴀᴜᴄᴛɪᴏɴ ᴛʏᴘᴇ.'
+        - '&dѕʜɪꜰᴛ ʀɪɢʜᴛ-ᴄʟɪᴄᴋ&f ᴛᴏ ᴄʜᴀɴɢᴇ ѕᴏʀᴛ ᴏʀᴅᴇʀ.'
+        - '&dᴘʀᴇѕѕ ᴅʀᴏᴘ(ʙᴜᴛᴛᴏɴ)&f ᴛᴏ ʀᴇѕᴇᴛ ꜰɪʟᴛᴇʀѕ.'
       filter menu:
 
         enabled: true
@@ -1264,10 +1272,10 @@ gui:
 
       item: RED_STAINED_GLASS_PANE
 
-      name: '&c&l-1'
+      name: '&d&l-1'
 
       lore:
-      - '&7Click to remove &c-1 &7from the purchase quantity'
+      - '&7Click to remove &d-1 &7from the purchase quantity'
     qty info:
 
       item: PAPER
@@ -1289,7 +1297,7 @@ gui:
       - '&7Total&f: &a%purchase_price%'
     'no':
       item: RED_STAINED_GLASS_PANE
-      name: '&c&LCancel'
+      name: '&d&LCancel'
       lore:
       - '&7Click to cancel your purchase'
     'yes':
@@ -1300,7 +1308,7 @@ gui:
   confirm request:
     'no':
       item: RED_STAINED_GLASS_PANE
-      name: '&c&LCancel'
+      name: '&d&LCancel'
       lore:
       - '&7Click to cancel your purchase'
     'yes':
@@ -1313,7 +1321,7 @@ gui:
     title: '&7Are you sure?'
     'no':
       item: RED_STAINED_GLASS_PANE
-      name: '&c&LCancel'
+      name: '&d&LCancel'
       lore:
       - '&7Click to cancel listing'
     'yes':
@@ -1326,7 +1334,7 @@ gui:
     title: '&7Are you sure?'
     'no':
       item: RED_STAINED_GLASS_PANE
-      name: '&c&LCancel'
+      name: '&d&LCancel'
       lore:
       - '&7Click to cancel your bid'
     'yes':
@@ -1339,7 +1347,7 @@ gui:
     title: '&7Are you sure?'
     'no':
       item: RED_STAINED_GLASS_PANE
-      name: '&c&LCancel'
+      name: '&d&LCancel'
       lore:
       - '&7Click to cancel item removal'
     'yes':
@@ -1354,14 +1362,14 @@ gui:
 
       item: ENDER_CHEST
 
-      name: '&c&l* &c&nEnd All&r &c&l*'
+      name: '&d&l* &d&nEnd All&r &d&l*'
 
       lore:
       - '&7Click here to end all of the active listings'
       - '&7that you have posted.'
   active bids:
 
-    title: '&c&l* &c&nYour Winning Bids&r &c&l*'
+    title: '&d&l* &d&nYour Winning Bids&r &d&l*'
   expired auctions:
 
     title: '          &8&nExpired Listings'
@@ -1369,7 +1377,7 @@ gui:
 
       item: ENDER_CHEST
 
-      name: '&c&l* &c&nClaim All&r &c&l*'
+      name: '&d&l* &d&nClaim All&r &d&l*'
 
       lore:
       - '&7Click here to claim all of your expired auctions'
@@ -1377,18 +1385,18 @@ gui:
 
       item: GOLD_INGOT
 
-      name: '&c&l* &c&nCollect Payments&r &c&l*'
+      name: '&d&l* &d&nCollect Payments&r &d&l*'
 
       lore:
       - '&7Click here to view your payments'
   payment collection:
 
-    title: '&c&l* &c&nPayment Collection&r &c&l*'
+    title: '&d&l* &d&nPayment Collection&r &d&l*'
     claim all:
 
       item: ENDER_CHEST
 
-      name: '&c&l* &c&nClaim All&r &c&l*'
+      name: '&d&l* &d&nClaim All&r &d&l*'
 
       lore:
       - '&7Click here to claim all of your payments'
@@ -1396,7 +1404,7 @@ gui:
 
       item: PAPER
 
-      name: '&c&l* &c&n%payment_amount%&r &c&l*'
+      name: '&d&l* &d&n%payment_amount%&r &d&l*'
 
       lore:
       - '&7Item&f: &e%item_name%'
@@ -1415,7 +1423,7 @@ gui:
 
         item: PAPER
 
-        name: '&c&nAll Transactions'
+        name: '&d&nAll Transactions'
 
         lore:
         - '&7Click to view all transactions'
@@ -1423,7 +1431,7 @@ gui:
 
         item: DIAMOND
 
-        name: '&c&nYour Transactions'
+        name: '&d&nYour Transactions'
 
         lore:
         - '&7Click to view all your transactions'
@@ -1431,7 +1439,7 @@ gui:
 
         item: LAVA_BUCKET
 
-        name: '&cDelete Transactions'
+        name: '&dDelete Transactions'
 
         lore:
         - '&7Click to delete transactions older than a specified period'
@@ -1494,19 +1502,19 @@ gui:
 
         item: NETHER_STAR
 
-        name: '&c&nFilter Options'
+        name: '&d&nFilter Options'
 
         lore:
-        - '&cItem Category: &f%filter_category%'
-        - '&cAuction Type: &f%filter_auction_type%'
-        - '&cTransaction Type: &f%filter_buy_type%'
-        - '&cSort Order: &f%filter_sort_order%'
+        - '&dItem Category: &f%filter_category%'
+        - '&dAuction Type: &f%filter_auction_type%'
+        - '&dTransaction Type: &f%filter_buy_type%'
+        - '&dSort Order: &f%filter_sort_order%'
         - ''
-        - '&cLeft-Click &fto change item category'
-        - '&cRight-Click &fto change change auction type'
-        - '&cShift Right-Click &fto change sort order'
-        - '&cShift Left-Click &fto change buy type'
-        - '&cPress Drop(button) &fto reset filters'
+        - '&dLeft-Click &fto change item category'
+        - '&dRight-Click &fto change change auction type'
+        - '&dShift Right-Click &fto change sort order'
+        - '&dShift Left-Click &fto change buy type'
+        - '&dPress Drop(button) &fto reset filters'
   transaction view:
 
     title: '&7&LViewing Transaction'
@@ -1958,7 +1966,7 @@ gui:
         - ''
         - '&7You have partial purchases &aenabled'
         - ''
-        - '&7Click to &cdisable &7partial purchases'
+        - '&7Click to &ddisable &7partial purchases'
       partial disabled:
 
         item: RED_STAINED_GLASS_PANE
@@ -1967,7 +1975,7 @@ gui:
 
         lore:
         - ''
-        - '&7You have partial purchases &cdisabled'
+        - '&7You have partial purchases &ddisabled'
         - ''
         - '&7Click to &aenable &7partial purchases'
   request:
@@ -2067,7 +2075,7 @@ gui:
         - ''
         - '&7You have buyout &aenabled'
         - ''
-        - '&7Click to &cdisable &7auction buyout'
+        - '&7Click to &ddisable &7auction buyout'
       buyout disabled:
 
         item: RED_STAINED_GLASS_PANE
@@ -2076,7 +2084,7 @@ gui:
 
         lore:
         - ''
-        - '&7You have buyout &cdisabled'
+        - '&7You have buyout &ddisabled'
         - ''
         - '&7Click to &aenable &7auction buyout'
       confirm:
@@ -2163,7 +2171,7 @@ gui:
         name: '&e&LMoney Spent'
 
         lore:
-        - '&7You spent &c%money_spent%'
+        - '&7You spent &d%money_spent%'
 
     bg item: AIR
   stat view leaderboard:
@@ -2243,7 +2251,7 @@ gui:
         name: '&e&LMoney Spent'
 
         lore:
-        - '&7They spent &c%money_spent%'
+        - '&7They spent &d%money_spent%'
 
     bg item: AIR
   expired items admin:
@@ -2333,40 +2341,40 @@ auction stack:
   - '&7&m-------------------------'
 
   seller lines:
-  - '&c&nSeller&r &c➤ &f%seller%'
+  - '&d&nSeller&r &d➤ &f%seller%'
 
   requester lines:
-  - '&c&nRequester&r &c➤ &f%requester%'
+  - '&d&nRequester&r &d➤ &f%requester%'
   - ''
 
   request price lines:
-  - '&c&nOffering&r &c➤ &f%request_price%'
+  - '&d&nOffering&r &d➤ &f%request_price%'
 
   request count lines:
-  - '&c&nRequest Amt&r &c➤ &f%request_amount%'
+  - '&d&nRequest Amt&r &d➤ &f%request_amount%'
   - ''
 
   buy now lines:
-  - '&c&nBuy Now&r &c➤ &f%buynowprice%'
+  - '&d&nBuy Now&r &d➤ &f%buynowprice%'
 
   current price lines:
-  - '&c&nCurrent Price &c➤ &f%currentprice%'
+  - '&d&nCurrent Price &d➤ &f%currentprice%'
 
   bid increment lines:
-  - '&c&nBid Increment &c➤ &f%bidincrement%'
+  - '&d&nBid Increment &d➤ &f%bidincrement%'
 
   highest bidder lines:
-  - '&c&nHighest Bidder &c➤ &f%highestbidder%'
+  - '&d&nHighest Bidder &d➤ &f%highestbidder%'
 
   priority listing lines:
   - <GRADIENT:F55C7A>&LPriority Listing</GRADIENT:F6BC66>
 
   time left lines:
-  - '&c&nTime Left&r &c➤ &f%remaining_days%d %remaining_hours%h %remaining_minutes%m %remaining_seconds%s'
+  - '&d&nTime Left&r &d➤ &f%remaining_days%d %remaining_hours%h %remaining_minutes%m %remaining_seconds%s'
 
   # this will be used instead of the time left if the item is infinite
   infinite lines:
-  - '&c&nTime Left&r &c➤ &fNo Expiration'
+  - '&d&nTime Left&r &d➤ &fNo Expiration'
   controls:
 
     header:
@@ -2378,53 +2386,53 @@ auction stack:
     # This will only be added to the control lore if the item can be inspected (skulker box/bundled item)
     inspection:
     - ''
-    - '&c&nShift Right-Click&r &c➤ &fto inspect'
+    - '&d&nShift Right-Click&r &d➤ &fto inspect'
 
     # This will only show on items within the active listings menu on biddable items.
     accept bid:
-    - '&cRight-Click to accept the current bid'
+    - '&dRight-Click to accept the current bid'
 
     # This will only show on items within the active listings menu
     priority listing:
-    - '&cShift + Left-Click &fto prioritize listing'
+    - '&dShift + Left-Click &fto prioritize listing'
 
     cancel item:
-    - '&cLeft-Click &fto cancel this listing'
+    - '&dLeft-Click &fto cancel this listing'
 
     cancel request:
-    - '&cLeft-Click &fto cancel this request'
+    - '&dLeft-Click &fto cancel this request'
 
     preview item:
-    - '&cPreviewing Listing'
+    - '&dPreviewing Listing'
 
     highest bidder:
-    - '&cCurrently Winning!'
+    - '&dCurrently Winning!'
 
     # This will be appended at the end of the lore
     # If the auction item is using a bid, this will show
     using bid:
-    - '&c&nLeft-Click&r &c➤ &fBid'
-    - '&c&nRight-Click&r &c➤ &fBuy Now'
+    - '&d&nLeft-Click&r &d➤ &fBid'
+    - '&d&nRight-Click&r &d➤ &fBuy Now'
 
     # This will be appended at the end of the lore
     # If the auction item is using a bid, this will show
     using bid without buy now:
-    - '&c&nLeft-Click&r &c➤ &fBid'
+    - '&d&nLeft-Click&r &d➤ &fBid'
 
     # This will be appended at the end of the lore
     # If the listing is a request this will be shown to fulfill
     fulfill request:
-    - '&c&nLeft-Click&r &c➤ &fFulfill Request'
+    - '&d&nLeft-Click&r &d➤ &fFulfill Request'
 
     # This will be appended at the end of the lore
     # If the auction item is not using a bid, this will show
     not using bid:
-    - '&c&nLeft-Click&r &c➤ &fBuy Now'
+    - '&d&nLeft-Click&r &d➤ &fBuy Now'
 
     # This will be appended at the end of the lore
     # If the auction item allows partial buys, this will be added
     partial buy:
-    - '&c&nShift Left-Click&r &c➤ &fBuy Quantity'
+    - '&d&nShift Left-Click&r &d➤ &fBuy Quantity'
 
   # The info order for the stacks, if a listing doesnt require one of these, Auction House will just ignore it.
   # This is mainly used to just change the ordering of listing stack information
