@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1729249334242
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1729261501813
+  login: 1729260968148
+  command-cooldowns:
+  - pattern: .*( .*)?
+    value: 1729250718473
+money: '1049696.489999999999999'
+logoutlocation:
+  world: c0518cbe-5d07-4bdd-9d63-2042b2976baa
+  world-name: test
+  x: -11.594836542320792
+  y: 76.0
+  z: -8.408040851756969
+  yaw: 177.9580841064453
+  pitch: 16.33485221862793
+last-account-name: LemoNakiss
+homes:
+  home:
+    world: c0518cbe-5d07-4bdd-9d63-2042b2976baa
+    world-name: test
+    x: 13.576881201149202
+    y: 73.0625
+    z: -26.150245118083973
+    yaw: -97.24163818359375
+    pitch: 5.597064018249512
+lastlocation:
+  world: c0518cbe-5d07-4bdd-9d63-2042b2976baa
+  world-name: test
+  x: -22.0229929000466
+  y: 72.0625
+  z: -22.38356979276688
+  yaw: 147.28651428222656
+  pitch: 24.506807327270508

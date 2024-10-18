@@ -1,0 +1,135 @@
+# Default language file
+language: english
+# Prefix to be used in chat
+prefix: '&dᴘᴏʀᴛᴀʟ ѕᴍᴘ &m &r'
+# Should skulls charge users without permission for heads?
+charge for heads: true
+# You can use Vault or Item
+economy: Vault
+# 
+item economy item: GOLD_INGOT
+# 
+main menu requires no permission: true
+# If true, no permission is required to use except for admin stuff
+general usage requires no permission: false
+# 
+tell ops patron on join: false
+# If disabled skulls will no longer drop in creative
+track skull placement: true
+enabled categories:
+  # 
+  food and drinks: true
+  # 
+  humanoids: true
+  # 
+  player heads: true
+  # 
+  blocks: true
+  # 
+  plants: true
+  # 
+  monsters: true
+  # 
+  alphabet: true
+  # 
+  animals: true
+  # 
+  decoration: true
+  # 
+  humans: true
+  # 
+  misc: true
+player head:
+  # 
+  name: '&d%player_name%''s head'
+  # 
+  drop enabled: true
+  # 
+  drop chance: 50
+claim delay:
+  # Structure -> perm name:seconds to claim again. Ex basic:30 means skulls.claimdelay.basic permission will allow players to get a head every 30 seconds
+  permission times:
+    - basic:30
+  # If enabled, players will be forced to wait based on their permission to claim another head.
+  enabled: false
+gui:
+  shared buttons:
+    back button:
+      # 
+      item: DARK_OAK_DOOR
+    previous button:
+      # 
+      item: ARROW
+    next button:
+      # 
+      item: ARROW
+    exit button:
+      # 
+      item: BARRIER
+  main:
+    items:
+      favourites:
+        # -1 to disable it
+        slot: 42
+      blocks:
+        # 
+        slot: 13
+      monsters:
+        # 
+        slot: 23
+      alphabet:
+        # 
+        slot: 11
+      food and drinks:
+        # 
+        slot: 15
+      humanoids:
+        # 
+        slot: 21
+      search:
+        # -1 to disable it
+        slot: 41
+      player heads:
+        # -1 to disable it
+        slot: 39
+      plants:
+        # 
+        slot: 24
+      custom categories:
+        # -1 to disable it
+        slot: 38
+      animals:
+        # 
+        slot: 12
+      decoration:
+        # 
+        slot: 14
+      humans:
+        # 
+        slot: 20
+      misc:
+        # 
+        slot: 22
+default prices:
+  # 
+  food and drinks: 500.0
+  # 
+  humanoids: 500.0
+  # 
+  player heads: 500.0
+  # 
+  blocks: 500.0
+  # 
+  plants: 500.0
+  # 
+  monsters: 500.0
+  # 
+  alphabet: 500.0
+  # 
+  animals: 500.0
+  # 
+  decoration: 500.0
+  # 
+  humans: 500.0
+  # 
+  misc: 500.0

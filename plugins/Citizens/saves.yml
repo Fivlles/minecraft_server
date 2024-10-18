@@ -1,0 +1,401 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 17
+npc:
+  '5':
+    metadata:
+      cached-skin-uuid: 588cb975-3112-4d41-bdd8-74b19330ccea
+      cached-skin-uuid-name: hello1
+    name: hello1
+    uuid: 6e6b69f2-0813-4161-9fb3-7f13e9264ac4
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -118.88556
+        world: world
+        x: 607.4736
+        y: 68.0
+        z: 961.8468
+        yaw: -118.8856
+        pitch: 11.9219
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: sellgui
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: YjrSYrn3BNveUukHXJO0WwyQPQjUQImbAAlgZDJvV9jCD2YOHn1gMWn6wZyqQoOwIo4BkEc5bHPuowrfsbTJ5nDywspYZ24QM2k98SGybT1L32qnZnfZMsqqjX6PIe8jaisKYAgLk6Xvk3Yz2Uwp9dyEKwgzqO6pCdi6S9+m9FzNvco+ie/0+N/l6Gy/8dlQNYHaWSihGqmuq7Z4mrdYM3FZCMmq4FgSxuzpV6CG4eIqWU3GdI0kU4cEmxdeX+w114btuLTt9sEMxCpcAGaVodMZ+HNGmRy2zjRUjRo7hhUAbnoSbTD+iIw+ZT09+nD3NW/f7j4kxGleTp8/nlr6jzY1JCr0NOdqy4iCrjXTKakEbod1Po/YAVK0OecDDeMnftVjXsxHgj7aXmMyYxLVD/3VLo4wLHQOHEVUuR7cvblAH28ShWw+kipQQVkFvjN/WUymS+A9dOOc2cm7f+4hWsbfcmEEwOzUHjZnj6z4TMPPZ73cJ7LexO85/+XGZhu2zrcAhuBAYroPZYoskinaBRS7CsHPuD9FnCo9yqZpwQ1Gf08Z4NZT3wxWJGITZNFzxarzUBC82KPRpfNvJpKfU8W5LJKz+n/Lmdk4RKf/i6cQ0S4r5R4tFcVvY7mUfVtvJuWq29meAQoAti1dU+vmFiH4NQsnr/oJi0GBS11gTXY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyODkyNTU3MjYwNiwKICAicHJvZmlsZUlkIiA6ICI1ODhjYjk3NTMxMTI0ZDQxYmRkODc0YjE5MzMwY2NlYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJoZWxsbzEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YmM4MGYwMDJiMTAzNzFlMmZhMjNkZTZmMjMwZGQ1ZTJmM2FmZmMyZTE1Nzg2ZjY1YmM5YmU0YzZlYjcxYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+    traitnames: spawned,type,scoreboardtrait,commandtrait,inventory,owner,skintrait,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
+      cached-skin-uuid-name: test
+      flyable: true
+    name: '&d&l&nʙᴀѕɪᴄ ᴄᴏᴍᴍᴀɴᴅѕ'
+    uuid: 09d6d9ba-98ba-4566-a126-67612a808774
+    traits:
+      gravity:
+        enabled: true
+      waypoints:
+        linear: {}
+        provider: linear
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      equipment:
+        hand:
+          type: golden_sword
+          amount: 1
+      skintrait:
+        signature: rp5HuW/Tj7KbUNaKKrvBc81g7TefUZox0dC/AobPDw9MIWNIX7qDCH9CrvJ8jJQuuZsiUUM06ofaWLzh4uXpH7+H/kVxvJ4P+SIfoBXz4Ab6hcQNqSrXWreI2ypT69XSM0xM2jzIMaYqsDIAUsapwBhSO4r89a0+XjPIezvsLt7qr/DkJQ3mGToyHvLCvsrMf3UNlQ2WMnlPO977m8G4xLlTaP3cGYSGZ1kYEfWHEMFubHKLv3MvPpYPSiL5QMbanlW2I6i1KfNafw880ehdg3PgvHdilquoPBH2alzffOzyqt2jHk67g1rm0iyM/sVfiMSM8Ii5guWgGGPbo4ENcy1xt9oi/2H9X2EYs+Q/NCEn+MCX8Ru5PeVZt0XDRYaQIeAN81Ldsg1KA+Bdn/PVMQUscVNv66b6xVhNlCJeNtmk11HqaVVRR9ZsS7PmIXF1pqqqcFBO14TRXY7MZDWAgRa7OzoLvDtt2/OXjIsloE7MBZtE9jo4fAy9g6K+lHaFaeCDqko08ZIoqBXE8dPjUe9XjpZXyZXNyhO+ZbPfe1uKChjD8Vx7nB0aqL+BdKFiRr6np5qGlAW5Z1ng67NjSh3SQ9FdkRevvOgFN2zh+wTCO2laaFyd4IQ30svbYn1qCVI56f2VBB8iVVYDFA3KuLDUCgZ2Df07uXsnVbrtlzA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyOTAwMzY4NzgyMSwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MzQzODk1M2E3ODJkYTc2OTQ4MGIwYTQ5MTI1YTkyZTI1OTIwNzcwMGNiOGUzZTFhYWMzOGU0NzFlMjAzMDgiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: 54.714615
+        world: test
+        x: -10.5835
+        y: 73.0
+        z: -18.6332
+        yaw: 54.7146
+        pitch: -9.7919
+      type: BOGGED
+      commandtrait:
+        commands:
+          '0':
+            command: help
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: spawned,lookclose,scoreboardtrait,commandtrait,owner,skintrait,gravity,type,rotationtrait,inventory,hologramtrait,waypoints,equipment,location
+    navigator:
+      speedmodifier: 0.25
+      avoidwater: false
+      usedefaultstuckaction: false
+  '8':
+    metadata:
+      cached-skin-uuid: 6a796e75-c318-48b4-a3f1-7694b83de34d
+      cached-skin-uuid-name: ruset
+      glowing: false
+    name: '&d&l&nᴍɪɴᴇʀ'
+    uuid: 0721651b-bc77-4935-b48c-71ed718fb76c
+    traits:
+      skintrait:
+        signature: w7F4A61GGpARE9Dcog1bHMuhUjp/Obo2rP36m9iNuQjoTesFt5fnAgixvnxG2JK4QOYCNAvI/cSsuYmfRCRDDPHiZItQ3v81x48i45rgsN31ZOh065nPMwFNLbWIwyZFrpz85Hcefk/Dvo4JqYautBQXp7T/qHUouC6wnz/wfKGet9LnW9D7mq2qbiWyWyPtyQcKUoiNbDXifm2lQ1lQNALozjAcPbgoFhEFoCK3tPxuqSHcG3A65zXg1ZVCDC9tslMf+o+I8dS+WqI5UoptjiMUsAznxFHbrKVVSuU+TQ9CPkN2Lu9IFajTNGj4MpfxqhbwPqBleo3ZNS6pLe98yEbMTVjW+9BwtpRRHSw3nh8/CXP8TM6fuszXx46M9dPmQHe5+cWsg4GIaxc7LXt6wqtN8dY46f0HMU27/ThuN7Z7OyoggDQFYfmr76sbYyI7H+CDyX1Wi+J+ANiaSeH+oT4Lod2hwPFsmmRAJJ1jXlR87PjuIt74HGOjUGxCnHNP+MyhW0AKQwbmZWbv1ikkKG0XoM4LnBcIxS80ogVJLvwGLbuu9tWmAtLAgLQik/8jH8qBPFAdCGqsFnkAEnhihpFDL10VhNHvn+VF3F1+SgctgVLd6DDERN8YR0ThlR7Kjjo0aJY0Vy5yeVPZ4GNuJFrlX6rrzd+rBeYNgjx+4rM=
+        skinName: Ruset
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyOTAwNTczMjc2MywKICAicHJvZmlsZUlkIiA6ICI2YTc5NmU3NWMzMTg0OGI0YTNmMTc2OTRiODNkZTM0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNldCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMzYwNGQ2MjcyMGNlMjU3NzAwNjE1ZjhmNDBhNTNjYjM5NThlZWEyNmMzMDQ5MDQ2ZjEyMjY4ZGIwNTRlNjUxIgogICAgfQogIH0KfQ==
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      spawned: true
+      location:
+        bodyYaw: -40.006145
+        world: test
+        x: -46.3
+        y: 73.0
+        z: -34.3
+        yaw: -40.0061
+        pitch: 0.0
+      type: PLAYER
+      equipment:
+        hand:
+          type: iron_pickaxe
+          amount: 1
+      inventory:
+        '0':
+          type: iron_pickaxe
+          amount: 1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '0':
+            command: shop Ores
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,equipment,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '12':
+    name: '&d&l&nѕᴇʟʟ ɪᴛᴇᴍѕ'
+    uuid: cce142b1-3fdb-45cb-adf0-5e509087958e
+    traits:
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: -132.25835
+        world: test
+        x: -36.2756
+        y: 73.0
+        z: -22.4485
+        yaw: -132.2583
+        pitch: -3.7542
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: sellgui
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '13':
+    name: '&d&l&nᴛᴀɢѕ ᴍᴇɴᴜ'
+    uuid: 5fd9931c-ca6a-4271-abdf-9fe7b8ad4a90
+    traits:
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      spawned: true
+      location:
+        bodyYaw: -34.963924
+        world: test
+        x: -19.477
+        y: 73.0
+        z: -36.3614
+        yaw: -34.9639
+        pitch: 1.1589
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: tags
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,hologramtrait,skintrait,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '10':
+    metadata:
+      cached-skin-uuid: 137af7e6-9fe4-4a3e-b80c-5183b8ee4548
+      cached-skin-uuid-name: mr_lemaire
+    name: '&d&l&nꜰᴀʀᴍɪɴɢ'
+    uuid: 4736420a-4251-42e4-8468-9a6831d8cf82
+    traits:
+      equipment:
+        hand:
+          type: diamond_hoe
+          amount: 1
+      skintrait:
+        signature: AOTIXu3rLNwg9MukOuXnetEwvZPTCz9JD9e5FLvwdhzD0jLHIzJw9tJKT5WCBUQSDxGnD2ukDOZD4SlU8S/mPcRak4vQC3qr/oxbvd/kBpSAUJzAsaHLdNMui4jj21UY56KnemKgV2T26EmhVVQZT/Jeh3GWSjwrwqaMUgPHo8GxmLtnPOv3LYhZGFglyLJ0s6C4AyrKZzezOJJc1UKkWlqjFBXS6/Pgf5aSARKwMU0wORSdyrU63p/lAhyZmVrHh8CBJ/KNudzp3lDKSluPJiDMOnVnrQzl0OfGkan3bjxaJHEfJtNHv5Is1B9t3zdo4ICcivE5THdhVpcWYxoqCladDljJCGvUN440JJoMVl3aY6Fxq2zGmB+/gsP0EZnxp6tP8Bds25T+gaRly6j1NHOlPKescimQ6Gzhly0XwMOKdp/kqkaf0PHdgDJNC67TrZNzXpiw0Uzh+5Knje8xYsI3YhDLNESSU5rd/SIKBhug+nN7J7DDzdgsPBSg6GNp8cfGo51V7lDggZ5lTsr6gTXDjEmpviz7c6G6Ml8CRhyrbX+ANtBNro5cJaSbD1PXeA5KTXHB+wmDC4ovhTKn+MaUslAq4/yOaDOEoMk0f98uBW/0Xe+KpPZrMxdFlEefH/QtGZGFDFcv047Siqdt5Q8i+k9RK9gCGAS356cANH8=
+        skinName: Mr_LeMaire
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyOTAwNzIzNzc3MSwKICAicHJvZmlsZUlkIiA6ICIxMzdhZjdlNjlmZTQ0YTNlYjgwYzUxODNiOGVlNDU0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcl9MZU1haXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzMTA1N2RjYzMzNTY5MzRhOTgxNDYyOGFmOTk4NGEzZTdmMWU0MTA5NzA3OTVkYWFmMzhjZTkwNzZjMDM3NjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NjliN2YyYTFkMDBkMjZmMzBlZmUzZjlhYjlhYzgxN2IxZTZkMzVmNGYzY2ZiMDMyNGVmMmQzMjgyMjNkMzUwIgogICAgfQogIH0KfQ==
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      inventory:
+        '0':
+          type: diamond_hoe
+          amount: 1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      location:
+        bodyYaw: -141.30714
+        world: test
+        x: -46.4864
+        y: 73.0
+        z: -18.2185
+        yaw: -141.3071
+        pitch: 0.0
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: shop Farming
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,equipment,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    name: '&d&l&nᴀᴜᴄᴛɪᴏɴѕ'
+    uuid: 4b410168-6db5-472b-8179-bb02557f0c6d
+    traits:
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      hologramtrait: {}
+      location:
+        bodyYaw: 87.026474
+        world: test
+        x: 0.5046
+        y: 73.0
+        z: -37.3754
+        yaw: 87.0265
+        pitch: -0.2865
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: ah
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,hologramtrait,skintrait,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '17':
+    name: '&d&l&nʜᴜɴᴛᴇʀ'
+    uuid: 486631a8-74c8-4a34-9d49-35a2992498c0
+    traits:
+      location:
+        bodyYaw: -90.5022
+        world: test
+        x: -47.7544
+        y: 73.0
+        z: -26.9075
+        yaw: -90.5022
+        pitch: -5.7972
+      spawned: true
+      type: PLAYER
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '0':
+            command: shop Mobs
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      owner:
+        uuid: 1087e398-e985-497b-8add-341ccf87c51f
+    traitnames: spawned,type,lookclose,scoreboardtrait,rotationtrait,commandtrait,inventory,owner,skintrait,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

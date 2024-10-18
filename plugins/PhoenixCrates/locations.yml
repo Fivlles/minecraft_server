@@ -1,0 +1,9 @@
+locations:
+  example1:
+  - test;14;74;-36;SOUTH
+  example2:
+  - test;25;74;-25;WEST
+  example3:
+  - test;24;74;-31;WEST
+  example4:
+  - test;20;74;-35;SOUTH

@@ -1,0 +1,22 @@
+name: LemoNakiss
+kits:
+  iron:
+    cooldown: 1728990307862
+    one_time: false
+    bought: false
+  Explorer:
+    cooldown: 1729103732847
+    one_time: true
+    bought: false
+  Adventurer:
+    cooldown: 1729101194091
+    one_time: true
+    bought: false
+  Wanderer:
+    cooldown: 1729145141725
+    one_time: true
+    bought: false
+  Voyager:
+    cooldown: 1729145332899
+    one_time: true
+    bought: false

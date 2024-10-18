@@ -1,0 +1,41 @@
+inventories:
+  main_inventory:
+    slots: 27
+    title: '            &8&nᴘʟᴀʏᴇʀ ᴋɪᴛѕ'
+    '10':
+      type: 'kit: Adventurer'
+    '12':
+      type: 'kit: Wanderer'
+    '13':
+      type: 'kit: Explorer'
+    '14':
+      type: 'kit: Voyager'
+    '15':
+      type: 'kit: Jetsetter'
+  preview_inventory:
+    slots: 27
+    title: '            &8&nᴋɪᴛ ᴘʀᴇᴠɪᴇᴡ'
+    '26':
+      item:
+        id: SPECTRAL_ARROW
+        name: '&cɢᴏ ʙᴀᴄᴋ'
+      open_inventory: previous
+  buy_requirements_inventory:
+    slots: 27
+    title: '&4&lBuy Kit Requirements'
+    '13':
+      item:
+        id: BOOK
+        name: '&c&lRequirements'
+        lore:
+        - '%kit_requirements_message%'
+    '10':
+      item:
+        id: RED_STAINED_GLASS_PANE
+        name: '&cɢᴏ ʙᴀᴄᴋ'
+      type: buy_no
+    '16':
+      item:
+        id: GREEN_STAINED_GLASS_PANE
+        name: '&aBuy'
+      type: buy_yes

@@ -1,0 +1,23 @@
+# ###########################################################
+# +------------------------------------------------------+ #
+# |                       Tags                           | #
+# +------------------------------------------------------+ #
+# ###########################################################
+
+tags:
+  deeppurple: # 1.16+ server is required for hex colors to work.
+    tag: '&#75318cDeep Purple'
+    permission: supremetags.tag.deeppurple
+    description: '&7I love this purple do you ?'
+    category: default
+    displayname: '&7Tag: %tag%'
+    display-item: NAME_TAG
+    cost: 1000.0 # this is only implemented when 'cost-system' is enabled
+  HelloWorld:
+    tag: '&dHelloWorld'
+    permission: supremetags.tag.HelloWorld
+    description: '&7printf ("HelloWorld");'
+    category: default
+    display-item: NAME_TAG
+    displayname: '&7Tag: %tag%'
+    cost: 1000.0

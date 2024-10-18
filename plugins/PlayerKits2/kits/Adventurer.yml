@@ -1,0 +1,186 @@
+cooldown: -1
+one_time: true
+auto_armor: true
+permission_required: true
+save_original_items: true
+display:
+  default:
+    id: LIGHT_GRAY_CANDLE
+    name: '&7[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] &fᴋɪᴛ'
+    amount: 1
+    lore:
+    - ''
+    - '&fᴛʜᴇ &7[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] &fᴋɪᴛ ᴄᴀɴ ᴏɴʟʏ ʙᴇ &cᴄʟᴀɪᴍᴇᴅ ᴏɴᴄᴇ&f.'
+    - ''
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: LIGHT_GRAY_CANDLE
+    name: '&7[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] &fᴋɪᴛ'
+    amount: 1
+    lore:
+    - ''
+    - '&fʏᴏᴜ &7ᴅᴏɴ᾽ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪѕѕɪᴏɴ &fᴛᴏ ᴄʟᴀɪᴍ ᴛʜɪѕ ᴋɪᴛ.'
+    - ''
+    - '&7ᴘʀɪᴄᴇ : &fꜰʀᴇᴇ'
+  cooldown:
+    id: LIGHT_GRAY_CANDLE
+    name: '&7[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] &fᴋɪᴛ'
+    amount: 1
+    lore:
+    - ''
+    - '&cʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴄʟᴀɪᴍᴇᴅ ᴛʜɪѕ ᴋɪᴛ.'
+    - ''
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ʜᴇʟᴍᴇᴛ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:protection: 4
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 0
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴛᴜɴɪᴄ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:protection: 4
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 1
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴘᴀɴᴛѕ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:protection: 4
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 2
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ʙᴏᴏᴛѕ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:protection: 4
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 3
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ѕᴡᴏʀᴅ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:sharpness: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 4
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: STONE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ѕʜᴏᴠᴇʟ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 5
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: STONE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴘɪᴄᴋᴀхᴇ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 6
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"[ᴀᴅᴠᴇɴᴛᴜʀᴇʀ] ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"ᴀхᴇ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        enchants:
+          minecraft:efficiency: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+        custom: H4sIAAAAAAAA/+NiYGBkEHEsTS7JzM/zyC8tTg1KLUjMLEpNYWQAAGZgGSYcAAAA
+    preview_slot: 7
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: ENCHANTED_GOLDEN_APPLE
+    preview_slot: 8
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: COOKED_BEEF
+      amount: 10
+    preview_slot: 9
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3955
+      type: TOTEM_OF_UNDYING
+    preview_slot: 10
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

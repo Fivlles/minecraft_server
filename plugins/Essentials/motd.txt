@@ -1,0 +1,2 @@
+
+&c&l* &fType &c/help&e &ffor a list of commands.

@@ -1,0 +1,15 @@
+product-license: M8AKR-ME0N7-5DEX4-FK937
+language: UNDEFINED
+notify-if-new-version: true
+debug: false
+database:
+  type: sqlite
+  address: localhost
+  name: phoenixcrates_db
+  port: 3306
+  username: phoenixuser
+  password: phoenixpassword
+crates:
+  knockback: 0.6
+  quick-open: true
+  render-radius: 15
